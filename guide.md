@@ -10,7 +10,7 @@ This guide was created for complete beginners (i.e. with no programming or compu
 
 As you complete this guide you'll be creating a virtual pet we'll call "Pypet" (a "Python-pet"). Remember [tamagochis](https://en.wikipedia.org/wiki/Tamagotchi)? (Or if you were born in the 90s then think POKEMON!) With each new Python programming concepts you learn, you will add new features to your "Pypet".
 
-There are no software or computer requirements for this guide except that you need access to a web broswer (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment which takes away the typical pain of setting up a coding environment. It is also cloud based so you can log in from any computer to view your code.
+There are no software or computer requirements for this guide except that you need access to a web browser (which you obviously already have at this point). You will learn how to use a free tool called [Nitrous](https://www.nitrous.io/) to set up your developer environment, which takes away the typical pain of setting up a coding environment. It is also cloud based so you can log in from any computer to view your code.
 
 ###What is Python?
 
@@ -20,11 +20,11 @@ Many Python programmers (aka “Pythonistas”) love this language because it ma
 
 ##Setup
 
-To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
+To get started we'll need a "development environment", aka *a place to write and execute code*. For this we'll use [Nitrous.io](https://www.nitrous.io/), a fast and free way to get you up and running. Nitrous is a cloud-based developer environment that works really well for programming in python. Since Nitrous.io is a web application it won't matter whether you have a mac or windows or even Linux computer to run and test your code. Follow the instructions below to set up your Nitrous.io Development Environment.
 
 1. Go to [Nitrous.io](https://www.nitrous.io/) and create an account. *NOTE: You will have to check your email and activate your account before you can sign in.*
 2. Once you have signed in and confirmed your email click the "open dashboard" button on their [homepage](https://www.nitrous.io/). You should be prompted to create your first Nitrous "box" aka developer environment.
-3. First choose "Python/Django" as your template. Next you can rename your box anything you like or just leave it as is. Finally don't worry about the optional section that says "Download a Github repo". See image below as an example:
+3. First choose "Python/Django" as your template. Next you can rename your box anything you like or just leave it as is. Finally don't worry about the optional section that says "Download a GitHub repo". See image below as an example:
 
 	![](http://i.imgur.com/gBTqt8X.png)
 
@@ -32,7 +32,7 @@ To get started we'll need a "development environment", aka *a place to write and
 
 5. Let's take a quick tour:
 ![](http://i.imgur.com/6bXzy6A.png)
-    - In the **left panel**, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Broswer.
+    - In the **left panel**, you’ll see the File Browser. Here you can navigate the files in your home folder. At this point, you will just have the "workspace" folder and a README file introducing you to Nitrous.IO. When you have more files, you can open them in Nitrous.IO’s text editor by double clicking on them in the File Browser.
     - The **middle panel** is the Text Editor. This is where you can write and edit code.
     - The **right panel** is for chatting if you’re using Nitrous.io in collaborative mode. Close this window for now by clicking the X in the upper right hand corner so you get more screen real estate.
     - The **bottom panel** is your console for actually running your python file.
@@ -63,7 +63,7 @@ If you're stuck, take another look at the GIF above or tweet [@Thinkful](https:/
 
 ###Variables
 
-Variables are a way of storing information in Python. Below we'll create different variables for our pypet such as name, weight, etc.
+Variables are a way of storing information in Python. Below we'll create different variables for our Pypet such as name, weight, etc.
 
 1. Create a variable called `name` equal to `'Fluffy'` (or `'Spike'` or `'Sir Patrick'`).
 	
@@ -143,7 +143,7 @@ Variables are a way of storing information in Python. Below we'll create differe
 	
 ###Dictionaries
 
-We need a way to tell Python that all of these variables represent one cat (or dog, fish, creature etc). One way to do this is to use a Python **dictionary**. Dictionaries are a way of storing multiple variables that contain different values. Here is another GIF that you can refer back to as you follow along with the instructions below.
+We need a way to tell Python that all of these variables represent one cat (or dog, fish, creature, etc). One way to do this is to use a Python **dictionary**. Dictionaries are a way of storing multiple variables that contain different values. Here is another GIF that you can refer back to as you follow along with the instructions below.
 
 ![](http://i.imgur.com/bsj0LGE.gif)
 
@@ -163,7 +163,7 @@ We need a way to tell Python that all of these variables represent one cat (or d
 	```
 	Here we’ve created a dictionary called `cat`. Each line contains a different cat attribute. Attributes have both a *key* (ex. `'name'`, `'weight'`, `'age'` etc) as well as a *value* (ex. `'Fluffy'`, `True`, `9.6` etc). Unlike assigning variables which use an equals sign (`name = 'Fluffy'`), dictionary attributes use a colon (`'name':'Fluffy'`).
 
-2. Add a print statement to view your pypet in the console. Don't forget to first save your file and then run your file in the console by typing "python pypet.py" and pressing enter.
+2. Add a print statement to view your Pypet in the console. Don't forget to first save your file and then run your file in the console by typing "python pypet.py" and pressing enter.
 
 	```py
 	cat = {
@@ -197,7 +197,7 @@ Make sure to take another look at the GIF above if you get stuck.
 
 ##Feeding your Pypet - Functions
 
-Let's “feed” our pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our pypet’s `hungry` attribute to `False` to show that it is no longer hungry.
+Let's “feed” our Pypet using a Python function. A [function](http://www.tutorialspoint.com/python/python_functions.htm) is a block of organized, reusable code that is used to perform a single action. First, we must define our function — `feed` — which changes our Pypet’s `hungry` attribute to `False` to show that it is no longer hungry.
 
 1. Create this simple function by writing the following below your other code.
 
@@ -229,7 +229,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 			cat['weight'] = cat['weight'] + 1
 	```
 
-	Floats and integers can be increased by using this notation. Try setting your original pypet’s hungry variable to True and then call the function by writing `feed(cat)` at the bottom like so:
+	Use this notation to increase floats and integers. Try setting your original Pypet’s hungry variable to True and then call the function by writing `feed(cat)` at the bottom like so:
 
 	```py
 	print 'Welome to Pypet!'
@@ -257,7 +257,7 @@ Let's “feed” our pypet using a Python function. A [function](http://www.tuto
 	
 ## If Statements
 
-But what if our pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hungry = True`). Take a look at the GIF below to get an idea of what this looks like.
+But what if our Pypet is not hungry? We need to take into account whether or not the hungry variable is set to `True` or `False`. In order to know whether our Pypet is hungry, we are going to use an **if statement**. In Python, if statements check to see whether a specific condition (such as whether or not `hungry = True`). Take a look at the GIF below to get an idea of what this looks like.
 
 ![](http://i.imgur.com/Axp2Smt.gif)
 
@@ -277,7 +277,7 @@ If the Pypet is hungry the program will set his hungry variable to `False` and i
 	feed(cat)
 	print cat
 	```
-	Notice that we use two equals sign (`==`) to check a conditon (for example `pet['hungry'] == True`). Only if the condition is not met the code beneath the `else:` will execute.
+	Notice that we use two equals sign (`==`) to check a condition (for example `pet['hungry'] == True`). Only if the condition is not met the code beneath the `else:` will execute.
 
 2. Add another `feed(cat)` below your function and try feeding the cat twice to see if the function worked!
 
@@ -285,7 +285,7 @@ If you get stuck don't forget to look back at the GIF above!
 
 ##Friends for your Pypet - Lists
 
-1. Let’s create another Pypet using a dictionary. Add (or customize) the following code below your previous pypet dictionary.
+1. Let’s create another Pypet using a dictionary. Add (or customize) the following code below your previous Pypet dictionary.
 
 	```py
 	mouse = {
@@ -297,9 +297,9 @@ If you get stuck don't forget to look back at the GIF above!
 	}
 	```
 
-	*NOTE: Make sure to place this new pypet above your function (use the GIF as reference if you are confused)*
+	*NOTE: Make sure to place this new Pypet above your function (use the GIF as reference if you are confused)*
 	
-2. Create a list to hold both of your pypets using `pets = [cat, mouse]`.
+2. Create a list to hold both of your Pypets using `pets = [cat, mouse]`.
 
 	```py
 	pets = [cat, mouse]
@@ -317,7 +317,7 @@ for pet in pets:
   	print pet
 ```
 
-Tweet a screenshot of your pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
+Tweet a screenshot of your Pypets [@Thinkful](https://twitter.com/thinkful) so we can share your creation with the world!
 
 BONUS: 
 Once you have completed the steps above you should feel free to add additional features that you design yourself! Here are some ideas to get you started:
@@ -330,7 +330,7 @@ Once you have completed the steps above you should feel free to add additional f
 
 ##Conclusion & Resources
 
-Congrats for reaching the end of this guide! For your convenience we've placed a final version of our Pypet [on github](https://github.com/Thinkful/pypet/blob/master/pypet.py) if you would like to take a look at the code. If you are stuck tweet [@Thinkful](https://twitter.com/thinkful) and we'd love to help. Feel free to customize any or all of your project and try new things.
+Congrats for reaching the end of this guide! For your convenience we've placed a final version of our Pypet [on GitHub](https://github.com/Thinkful/pypet/blob/master/pypet.py) if you would like to take a look at the code. If you are stuck tweet [@Thinkful](https://twitter.com/thinkful) and we'd love to help. Feel free to customize any or all of your project and try new things.
 
 This guide is just the beginning of what you can do with Python. If you enjoyed the work you’ve done here, go through any of the additional resources below. 
 
